@@ -1,7 +1,6 @@
 # Atelier — Online Art Gallery
 
-Atelier is a full-stack virtual art gallery built for people to see art pieces without travelling. It combines artwork from **The Metropolitan Museum of Art** and the **Art Institute of Chicago** behind one consistent interface, then adds accounts, favorites, and user-curated public exhibitions.
-
+Atelier is a virtual art gallery created to make great art more accessible, no matter where people live or how far they are from a major museum. The idea began with friends and fellow students who did not always have the time, money, or transportation to travel to a large city and experience these works in person. Atelier brings artwork from The Metropolitan Museum of Art and the Art Institute of Chicago into one consistent interface, where users can explore collections, create accounts, save favorites, and curate public exhibitions of their own.
 ## Main features
 
 - Unified search across both museums
