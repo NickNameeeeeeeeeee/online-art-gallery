@@ -1,0 +1,23 @@
+{
+  "name": "online-art-gallery",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace server\" \"npm run dev --workspace client\"",
+    "build": "npm run build --workspace client",
+    "start": "npm run start --workspace server",
+    "check": "npm run check --workspace server && npm run build --workspace client",
+    "test": "npm run test --workspace server",
+    "deploy:check": "npm run check && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

@@ -1,0 +1,10 @@
+.git/
+.gitlab-ci.yml
+.idea/
+.env
+.env.*
+!.env.example
+node_modules/
+client/dist/
+coverage/
+*.tsbuildinfo
